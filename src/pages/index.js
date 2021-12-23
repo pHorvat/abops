@@ -11,6 +11,7 @@ const IndexPage = () => (
     <h1>Hi people</h1>
     <p>Welcome to your new Gatsby site.</p>
       <p>Initial commit - test</p>
+      <h1>Proba test! - Initial push vo</h1>
     <p>Now go build something great.</p>
     <StaticImage
       src="../images/gatsby-astronaut.png"
