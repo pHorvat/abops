@@ -10,7 +10,7 @@ const IndexPage = () => (
     <Seo title="Home" />
     <h1>Hi people</h1>
     <p>Welcome to your new Gatsby site.</p>
-      <p>Wenhook test - 2</p>
+      <p>Wenhook test - 3</p>
       <h1>Proba test! - Initial push vo</h1>
     <p>Now go build something great.</p>
     <StaticImage
