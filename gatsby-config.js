@@ -1,11 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    title: `Atlas bolesti oka pasa i mačaka`,
+    description: `Web izdanje "Atlasa bolesti oka pasa i mačaka" Veterinarske ambulate 'Oculus'`,
+    author: `Vedran Orešković, Patrik Horvat`,
+    siteUrl: `https://abops.gatsbyjs.io/`,
   },
   plugins: [
+    `gatsby-plugin-material-ui`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
     `gatsby-plugin-gatsby-cloud`,

@@ -15,11 +15,12 @@ export function Logo() {
     return (
         <LogoWrap as={Link} to="/">
         <StaticImage
-            src="../../images/gatsby-icon.png"
+            src="../../images/oculus-logo.png"
             alt="logo"
             placeholder="blurred"
             layout="fixed"
-            width={50}
+            height={70}
+            quality={99}
         />
         </LogoWrap>
     )
