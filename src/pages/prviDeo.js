@@ -1,12 +1,11 @@
 import * as React from "react"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-
 import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
-import CardMedia from '@mui/material/CardMedia';
+import {StaticImage} from "gatsby-plugin-image";
 
 const bull = (
     <Box
@@ -23,7 +22,7 @@ const prviDeo = () => (
         <Seo title="Prvi Deo" />
         <h1>Anatomija oka i dijagnostičke procedure</h1>
 
-        <Card  variant="outlined" sx={{ minWidth: 275, maxWidth:0.9 }} style={{margin:"1rem"}} >
+        <Card  variant="outlined" sx={{ minWidth: 275}} style={{margin:"1rem"}} >
             <CardContent >
                 <Typography sx={{ fontSize: 14 }} color="text.secondary" >
                     Odjeljak 1
@@ -143,14 +142,16 @@ const prviDeo = () => (
 
                     </ul>
                 </Typography>
-                <CardMedia
-                    component="img"
-                    height="140"
-                    image="../../images/Slika_2.1.png"
-                    alt="Slika 2.1.Metodi fiksacije kako bi se obezbedio bezbedan klinički pregled kod agresivnih pacijenata"
-                />
+                    <StaticImage
+                        src="../images/Slika_2.1.png"
+                        alt="Slika 2.1.Metodi fiksacije kako bi se obezbedio bezbedan klinički pregled kod agresivnih pacijenata"
+                    />
+                    <Typography variant="subtitle2" >
+                        Slika 2.1.Metodi fiksacije kako bi se obezbedio bezbedan klinički pregled kod agresivnih pacijenata
+                    </Typography>
 
             </CardContent>
+
         </Card>
 
 
