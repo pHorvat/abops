@@ -5,8 +5,9 @@ import CardContent from "@mui/material/CardContent";
 import Typography from "@mui/material/Typography";
 import CardActions from "@mui/material/CardActions";
 import Button from "@mui/material/Button";
+import {Link} from "gatsby";
 
-const Tile = ({ tilePart,tileContent,tileColor }) => (
+const Tile = ({ tilePart,tileContent,tileColor, tileLink }) => (
 
     <Card sx={{ minWidth: 275 }} style={{backgroundColor: tileColor, height:"100%"}} >
         <CardContent>
@@ -18,7 +19,9 @@ const Tile = ({ tilePart,tileContent,tileColor }) => (
             </Typography>
         </CardContent>
         <CardActions>
-            <Button variant={"contained"} color={"inherit"} size="small">Saznaj više</Button>
+            <Link style={{textDecoration:"none", color:"black"}} to={tileLink}>
+            <Button  variant={"contained"} color={"inherit"} size="small">Saznaj više</Button>
+            </Link>
         </CardActions>
     </Card>
 

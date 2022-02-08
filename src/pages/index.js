@@ -14,7 +14,7 @@ const IndexPage = () => (
 
       <Grid container spacing={2} direction={"row"}>
           <Grid item xs={12} md={6} lg={4} >
-              <Tile tilePart={"Deo 1"} tileContent={"Anatomija oka i dijagnostičke procedure"} tileColor={"#40c4cc"}/>
+              <Tile tilePart={"Deo 1"} tileContent={"Anatomija oka i dijagnostičke procedure"} tileColor={"#40c4cc"} tileLink={"prviDeo"}/>
           </Grid>
           <Grid item xs={12} md={6} lg={4}>
               <Tile tilePart={"Deo 2"} tileContent={"Bolesti očnih kapaka"} tileColor={"#f68b6d"}/>
