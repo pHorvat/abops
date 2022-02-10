@@ -1,23 +1,13 @@
 import * as React from "react"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
-import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
 import {StaticImage} from "gatsby-plugin-image";
 import Grid from "@mui/material/Grid";
 import { AnchorLink } from "gatsby-plugin-anchor-links";
-
-const bull = (
-    <Box
-        component="span"
-        sx={{ display: 'inline-block', mx: '2px', transform: 'scale(1.5) translate(-1rem)',  }}
-    >
-        •
-    </Box>
-);
-
+import "../components/proba.css"
 
 const prviDeo = () => (
     <Layout>
@@ -224,7 +214,7 @@ const prviDeo = () => (
             <Grid item xs={3}>
                 <Card style={{marginTop: "1rem",position: "sticky", right:0, top:20}}>
                     <Typography variant="h4">Sadržaj</Typography>
-                    <AnchorLink style={{ textDecoration: 'none' }} to="/prviDeo#Anatomijaokapasaimacaka" title="Anatomija oka pasa i mačaka">
+                    <AnchorLink style={{ }} to="/prviDeo#Anatomijaokapasaimacaka" title="Anatomija oka pasa i mačaka">
                     <Typography variant="body1">Anatomija oka pasa i mačaka</Typography>
                     </AnchorLink>
                     <AnchorLink style={{ textDecoration: 'none' }} to="/prviDeo#Klinickipregledoka" title="Klinički pregled oka">
