@@ -4,10 +4,11 @@ import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import Typography from "@mui/material/Typography";
 import {Link} from "gatsby";
+import "../components/main.css"
 
 const Tile = ({ tilePart,tileContent,tileColor, tileLink }) => (
-    <Link style={{textDecoration: "none"}} to={tileLink}>
-        <Card sx={{ minWidth: 275 }} style={{backgroundColor: tileColor, height:"100%"}} >
+    <Link className="box" style={{textDecoration: "none"}} to={tileLink}>
+        <Card sx={{ minWidth: 275}} style={{backgroundColor: tileColor, height:"100%"}} >
             <CardContent>
                 <Typography sx={{ fontSize: 20 }} color="white" gutterBottom>
                     {tilePart}

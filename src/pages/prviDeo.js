@@ -7,15 +7,15 @@ import Typography from '@mui/material/Typography';
 import {StaticImage} from "gatsby-plugin-image";
 import Grid from "@mui/material/Grid";
 import { AnchorLink } from "gatsby-plugin-anchor-links";
-import "../components/proba.css"
+import "../components/main.css"
 
 const prviDeo = () => (
     <Layout>
         <Seo title="Prvi Deo" />
         <h1>Anatomija oka i dijagnostičke procedure</h1>
 
-        <Grid container spacing={2}>
-            <Grid item xs={9}>
+        <Grid  container spacing={2}>
+            <Grid item xs={12} md={9}>
 
                 <Card id={"Anatomijaokapasaimacaka"} variant="outlined" sx={{ minWidth: 275}} style={{margin:"1rem"}} >
                     <CardContent >
@@ -211,13 +211,13 @@ const prviDeo = () => (
 
                 </Card>
             </Grid>
-            <Grid item xs={3}>
+            <Grid item md={3}>
                 <Card style={{marginTop: "1rem",position: "sticky", right:0, top:20}}>
                     <Typography variant="h4">Sadržaj</Typography>
-                    <AnchorLink style={{ }} to="/prviDeo#Anatomijaokapasaimacaka" title="Anatomija oka pasa i mačaka">
+                    <AnchorLink className="anchorLink" to="/prviDeo#Anatomijaokapasaimacaka" title="Anatomija oka pasa i mačaka">
                     <Typography variant="body1">Anatomija oka pasa i mačaka</Typography>
                     </AnchorLink>
-                    <AnchorLink style={{ textDecoration: 'none' }} to="/prviDeo#Klinickipregledoka" title="Klinički pregled oka">
+                    <AnchorLink className="anchorLink" to="/prviDeo#Klinickipregledoka" title="Klinički pregled oka">
                         <Typography variant="body1">Klinički pregled oka</Typography>
                     </AnchorLink>
 
