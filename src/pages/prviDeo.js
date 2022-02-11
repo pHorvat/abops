@@ -8,6 +8,16 @@ import {StaticImage} from "gatsby-plugin-image";
 import Grid from "@mui/material/Grid";
 import { AnchorLink } from "gatsby-plugin-anchor-links";
 import "../components/main.css"
+import {Box} from "@mui/material";
+
+const bull = (
+    <Box
+        component="span"
+        sx={{ display: 'inline-block', mx: '2px', transform: 'scale(1.5)',  }}
+    >
+        •
+    </Box>
+);
 
 const prviDeo = () => (
     <Layout>
@@ -215,28 +225,15 @@ const prviDeo = () => (
                 <Card style={{padding:"0.5rem", marginTop: "1rem",position: "sticky", right:0, top:20}}>
                     <Typography variant="h4">Sadržaj</Typography>
                     <AnchorLink className="anchorLink" to="/prviDeo#Anatomijaokapasaimacaka" title="Anatomija oka pasa i mačaka">
-                    <Typography variant="body1">Anatomija oka pasa i mačaka</Typography>
+                    <Typography variant="body1">{bull} Anatomija oka pasa i mačaka</Typography>
                     </AnchorLink>
                     <AnchorLink className="anchorLink" to="/prviDeo#Klinickipregledoka" title="Klinički pregled oka">
-                        <Typography variant="body1">Klinički pregled oka</Typography>
+                        <Typography variant="body1"> {bull} Klinički pregled oka</Typography>
                     </AnchorLink>
 
                 </Card>
             </Grid>
         </Grid>
-
-
-
-
-
-
-
-
-
-
-
-
-
     </Layout>
 )
 
