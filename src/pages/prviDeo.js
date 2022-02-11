@@ -211,8 +211,8 @@ const prviDeo = () => (
 
                 </Card>
             </Grid>
-            <Grid item md={3}>
-                <Card style={{marginTop: "1rem",position: "sticky", right:0, top:20}}>
+            <Grid className="sadrzaj" item md={3}>
+                <Card style={{padding:"0.5rem", marginTop: "1rem",position: "sticky", right:0, top:20}}>
                     <Typography variant="h4">Sadržaj</Typography>
                     <AnchorLink className="anchorLink" to="/prviDeo#Anatomijaokapasaimacaka" title="Anatomija oka pasa i mačaka">
                     <Typography variant="body1">Anatomija oka pasa i mačaka</Typography>
