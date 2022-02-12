@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Atlas bolesti oka pasa i mačaka`,
     description: `Web izdanje "Atlasa bolesti oka pasa i mačaka" Veterinarske ambulate 'Oculus'`,
-    author: `Vedran Orešković, Patrik Horvat`,
+    author: `Patrik Horvat, Vedran Orešković, `,
     siteUrl: `https://abops.gatsbyjs.io/`,
   },
   plugins: [
