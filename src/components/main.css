@@ -61,10 +61,24 @@
     .sadrzaj {
         display:none;
     }
+    .fullWidth{
+        width: 100%;
+    }
+    .centered {
+        max-width: 100%;
+        width: fit-content;
+        margin: 0 auto;
+    }
 }
 
-.centered {
-    max-width: 70%;
-    width: fit-content;
-    margin: 0 auto;
+@media only screen and (min-width: 899px) {
+    .fullWidth{
+        width: 90%;
+    }
+    .centered {
+        max-width: 70%;
+        width: fit-content;
+        margin: 0 auto;
+    }
 }
+

@@ -24,12 +24,15 @@ const bull = (
 const prviDeo = () => (
     <Layout>
         <Seo title="Prvi Deo" />
-        <h1>Anatomija oka i dijagnostičke procedure</h1>
 
-        <Grid  container spacing={2}>
+
+        <Grid container spacing={2}>
+            <Grid item xs={12} >
+            <h1>Anatomija oka i dijagnostičke procedure</h1>
+            </Grid>
             <Grid item xs={12} md={9}>
 
-                <Card id={"Anatomijaokapasaimacaka"} variant="outlined" sx={{ minWidth: 275}} style={{margin:"1rem"}} >
+                <Card id={"Anatomijaokapasaimacaka"} variant="outlined" sx={{ minWidth: 275}} style={{marginTop:"1rem"}} >
                     <CardContent >
                         <Typography sx={{ fontSize: 14 }} color="text.secondary" >
                             Odjeljak 1
@@ -135,7 +138,7 @@ const prviDeo = () => (
                     </CardContent>
                 </Card>
 
-                <Card id={"Klinickipregledoka"} variant="outlined" sx={{ minWidth: 275 }} style={{margin:"1rem", alignItems:"center"}} >
+                <Card id={"Klinickipregledoka"} variant="outlined" sx={{ minWidth: 275 }} style={{marginTop:"1rem", alignItems:"center"}} >
                     <CardContent >
                         <Typography sx={{ fontSize: 14 }} color="text.secondary" >
                             Odjeljak 2
