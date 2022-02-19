@@ -9,6 +9,8 @@ import Grid from "@mui/material/Grid";
 import { AnchorLink } from "gatsby-plugin-anchor-links";
 import "../components/main.css"
 import {Box} from "@mui/material";
+import 'react-medium-image-zoom/dist/styles.css'
+import Image from "../components/image";
 
 const bull = (
     <Box
@@ -133,7 +135,7 @@ const prviDeo = () => (
                     </CardContent>
                 </Card>
 
-                <Card id={"Klinickipregledoka"} variant="outlined" sx={{ minWidth: 275 }} style={{margin:"1rem"}} >
+                <Card id={"Klinickipregledoka"} variant="outlined" sx={{ minWidth: 275 }} style={{margin:"1rem", alignItems:"center"}} >
                     <CardContent >
                         <Typography sx={{ fontSize: 14 }} color="text.secondary" >
                             Odjeljak 2
@@ -208,15 +210,35 @@ const prviDeo = () => (
 
                             </ul>
                         </Typography>
-                        <div style={{  margin: "auto", width: "50%"}}>
+                        <Image imageDesc={"Slika 2.1. Metodi fiksacije kako bi se obezbedio bezbedan klinički pregled kod agresivnih pacijenata"}>
                             <StaticImage
                                 src="../images/Slika_2.1.png"
                                 alt="Slika 2.1.Metodi fiksacije kako bi se obezbedio bezbedan klinički pregled kod agresivnih pacijenata"
                             />
-                            <Typography variant="subtitle2" >
-                                Slika 2.1.Metodi fiksacije kako bi se obezbedio bezbedan klinički pregled kod agresivnih pacijenata
-                            </Typography>
-                        </div>
+                        </Image>
+
+                        <Image imageDesc={"Slika 2.2. Testiranje produkcije suza: A) Širmerove test-tračice za utvrđivanje\n" +
+                            "kvantiteta suznog filma (normalna vrednost za pse je >15 mm/min;\n" +
+                            "normalna vrednost za mačke između 8 i 15 mm/min); B) Prelomiti\n" +
+                            "tračicu dok je još zapakovana kako bi se izbegla kontaminacija\n" +
+                            "masnoćom s kože koja može artificijelno da promeni vrednosti\n" +
+                            "testiranja; C) Staviti u forniks donjeg očnog kapka; D) Zatvoriti očne\n" +
+                            "kapke u trajanju od jednog minuta, posle čega se produkcija suza može\n" +
+                            "očitati sa baždarene skale."}
+                               >
+                            <StaticImage
+                                src="../images/Slika_2.2.jpg"
+                                alt="Slika 2.2.Testiranje produkcije suza:"
+                            />
+                        </Image>
+                        <Image imageDesc={"Slika 2.3. Testiranje refleksa zenice oka hromatskim svetlom"}>
+                            <StaticImage
+                                src="../images/Slika_2.3.jpg"
+                                alt="Slika 2.3. Testiranje refleksa zenice oka hromatskim svetlom"
+                            />
+                        </Image>
+
+
                     </CardContent>
 
                 </Card>

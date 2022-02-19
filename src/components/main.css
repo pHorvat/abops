@@ -62,3 +62,9 @@
         display:none;
     }
 }
+
+.centered {
+    max-width: 70%;
+    width: fit-content;
+    margin: 0 auto;
+}
