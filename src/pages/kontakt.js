@@ -53,29 +53,29 @@ const kontakt = () => (
                         <form>
                                 <div className="col">
                                         <div className="form-group">
-                                                <label>Ime</label>
+                                                <label htmlFor="ime">Ime</label>
                                                 <input type="text"></input>
                                         </div>
                                         <div className="form-group">
-                                                <label>Prezime</label>
+                                                <label htmlFor="prezime">Prezime</label>
                                                 <input type="text"></input>
                                         </div>
                                 </div>
 
                                 <div className="col">
                                         <div className="form-group">
-                                                <label>E-Mail</label>
+                                                <label  htmlFor="email">E-Mail</label>
                                                 <input type="email"></input>
                                         </div>
                                         <div className="form-group">
-                                                <label>Telefonski broj</label>
+                                                <label  htmlFor="tel">Telefonski broj</label>
                                                 <input type="tel"></input>
                                         </div>
                                 </div>
 
                                 <div className="col">
                                         <div className="form-group solo">
-                                                <label>Kako Vam možemo pomoći?</label>
+                                                <label htmlFor="text">Kako Vam možemo pomoći?</label>
                                                         <div id="radio-buttons">
                                                                 <div className="radio-button">
                                                                         <input type="radio" id="radioZakazati" name="type" value="zakazati"></input><label for="radioZakazati">Zakazati termin</label>
