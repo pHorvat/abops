@@ -23,6 +23,9 @@ const IndexPage = () => (
           <Grid item xs={12} md={6} lg={4}>
               <Tile tilePart={"Deo 4"} tileContent={"Bolesti Konjunktive, nazolakrimalnog sistema i trećeg očnog kapka"} tileColor={"#a577a6"} tileLink={"#"}/>
           </Grid>
+          <Grid item xs={12} md={6} lg={4}>
+              <Tile tilePart={"Kontant"} tileContent={"Probno kreiranje veze do kontakta"} tileColor={"#a256a4"} tileLink={"kontakt"}/>
+          </Grid>
       </Grid>
       <script> </script>
   </Layout>
