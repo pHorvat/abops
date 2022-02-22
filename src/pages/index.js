@@ -4,9 +4,26 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import Tile from "../components/tiles"
 import "../components/main.css"
+import dogVideo from "../video/dogvideo.mp4"
+import {Link} from "gatsby";
+import FacebookIcon from "@mui/icons-material/Facebook";
+import Footer from "../components/Footer/Footer";
 
 const IndexPage = () => (
   <Layout>
+    <video
+    autoPlay
+    loop
+    muted
+    style={{position:"absolute", width:"100%", left:"50%",
+        top:"50%", height:"100%", objectFit:"cover",
+        transform:"translate(-50%,-50%)",
+        zIndex:"-10", filter: "blur(2px)"
+
+    }}
+    >
+        <source src={dogVideo} />
+    </video>
     <Seo title="Home" />
     <h1>Sadržaj</h1>
 

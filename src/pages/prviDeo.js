@@ -234,6 +234,7 @@ const prviDeo = () => (
                                 alt="Slika 2.2.Testiranje produkcije suza:"
                             />
                         </Image>
+
                         <Image imageDesc={"Slika 2.3. Testiranje refleksa zenice oka hromatskim svetlom"}>
                             <StaticImage
                                 src="../images/Slika_2.3.jpg"

@@ -20,7 +20,7 @@ import Masonry, {ResponsiveMasonry} from "react-responsive-masonry"
 const gallery = () => (
     <Layout>
         <Seo title="Galerija" />
-        <Box sx={{ margin:"0 auto", maxWidth: "1450px"}}>
+        <Box sx={{ margin:"0 auto", maxWidth: "1450px"}} >
 
             <ResponsiveMasonry
                 columnsCountBreakPoints={{1: 1, 400: 2, 800: 3, 1000: 4, 1050: 5}}
