@@ -15,10 +15,12 @@ img {
     left: 50%;
     top: 50%;
     height: 100%;
-    objectFit: cover;
+    object-fit: cover;
     transform: translate(-50%,-50%);
-    zIndex: -10;
+    z-index: -10;
 }
+
+
 
 #podNaslov {
     color: white;
@@ -35,6 +37,7 @@ p.subtitle {
 }
 
 #contact-container{
+    margin:auto;
     width: 1200px;
     border-radius: 15px;
     overflow: hidden;
@@ -46,6 +49,7 @@ p.subtitle {
     -moz-box-shadow: 0px 10px 33px 0px rgba(0,0,0,0.75);
     box-shadow: 0px 10px 33px 0px rgba(0,0,0,0.75);
     .contact-info{
+        min-width: 100%;
         background-color: rgb(63, 183, 42);
         border-radius: 15px;
         flex: 0 1 40%;
@@ -104,6 +108,7 @@ p.subtitle {
     }
     form{
         padding: 40px;
+        margin: 2px;
         width: 100%;
         .col{
             display: flex;
@@ -174,3 +179,30 @@ p.subtitle {
         }
     }
 }
+/*
+@media only screen and (max-width: 2000px){
+    .contact-info{
+        width: 100%;
+    }
+}*/
+
+@media only screen and (max-width: 600px){
+    .col{
+        flex-direction: column;
+    }
+
+    #radio-buttons{
+        flex-direction: column;
+    }
+
+    .radio-button{
+        margin-bottom: 30px;
+    }
+
+    .botun{
+        align-items: center;
+        flex-direction: column;
+        margin:auto;
+    }
+}
+
