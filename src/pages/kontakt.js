@@ -78,23 +78,23 @@ const kontakt = () => (
                                                 <label htmlFor="text">Kako Vam možemo pomoći?</label>
                                                         <div id="radio-buttons">
                                                                 <div className="radio-button">
-                                                                        <input type="radio" id="radioZakazati" name="type" value="zakazati"></input><label htmlFor="radioZakazati">Zakazati termin</label>
+                                                                        <input type="radio" id="radioZakazati" name="type" value="zakazati"></input><label for="radioZakazati">Zakazati termin</label>
                                                                 </div>
                                                                 <div className="radio-button">
-                                                                        <input type="radio" id="radioOdgoda" name="type" value="odgoda"></input><label htmlFor="radioOdgoda">Odgoda termina</label>
+                                                                        <input type="radio" id="radioOdgoda" name="type" value="odgoda"></input><label for="radioOdgoda">Odgoda termina</label>
                                                                 </div>
                                                                 <div className="radio-button">
-                                                                        <input type="radio" id="radioIzmjena" name="type" value="izmjena"></input><label htmlFor="radioIzmjena">Izmjena termina</label>
+                                                                        <input type="radio" id="radioIzmjena" name="type" value="izmjena"></input><label for="radioIzmjena">Izmjena termina</label>
                                                                 </div>
                                                                 <div className="radio-button">
-                                                                        <input type="radio" id="radioUpit" name="type" value="upit"></input><label htmlFor="radioUpit">Upit o bolesti</label>
+                                                                        <input type="radio" id="radioUpit" name="type" value="upit"></input><label for="radioUpit">Upit o bolesti</label>
                                                                 </div>
                                                         </div>
                                         </div>
                                 </div>
                                 <div className="col">
                                         <div className="form-group solo">
-                                                <label htmlFor="poruka">Poruka</label>
+                                                <label>Poruka</label>
                                                 <textarea></textarea>
                                         </div>
                                 </div>
