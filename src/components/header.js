@@ -1,6 +1,7 @@
 import * as React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
+import "../fonts/typography.css"
 
 const Header = ({ siteTitle }) => (
   <header
@@ -22,7 +23,7 @@ const Header = ({ siteTitle }) => (
           style={{
             color: `white`,
             textDecoration: `none`,
-              fontFamily: `Playfair Display`,
+              fontFamily: `Playfair Display Italic`,
               fontWeight: 400,
               textTransform: `capitalize`,
 

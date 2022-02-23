@@ -8,11 +8,13 @@ footer{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 15rem;
+    margin-top: 18vw;
     width: 100vw;
     margin-left: -50vw;
     left: 50%;
 }
+
+
 
 footer .social_icon{
     position: relative;
@@ -100,7 +102,6 @@ footer .wave{
     height: 100px;
     background: url("wave.png");
     background-size: 1000px 50px;
-
 }
 
 footer .wave#wave1{

@@ -250,11 +250,11 @@ const prviDeo = () => (
             <Grid className="sadrzaj" item md={3}>
                 <Card style={{padding:"0.5rem", marginTop: "1rem",position: "sticky", right:0, top:20}}>
                     <Typography variant="h4">Sadržaj</Typography>
-                    <AnchorLink className="anchorLink active" to="/prviDeo#Anatomijaokapasaimacaka" title="Anatomija oka pasa i mačaka">
-                    <Typography variant="body1">{bull} Anatomija oka pasa i mačaka</Typography>
+                    <AnchorLink className="anchorLink" to="/prviDeo#Anatomijaokapasaimacaka" title="Anatomija oka pasa i mačaka">
+                    <Typography variant="body1">Anatomija oka pasa i mačaka</Typography>
                     </AnchorLink>
-                    <AnchorLink className="anchorLink" to="/prviDeo#Klinickipregledoka" title="Klinički pregled oka">
-                        <Typography variant="body1"> {bull} Klinički pregled oka</Typography>
+                    <AnchorLink  className="anchorLink" to="/prviDeo#Klinickipregledoka" title="Klinički pregled oka">
+                        <Typography variant="body1">Klinički pregled oka</Typography>
                     </AnchorLink>
 
                 </Card>

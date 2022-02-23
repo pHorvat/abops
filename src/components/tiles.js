@@ -6,6 +6,7 @@ import Typography from "@mui/material/Typography";
 import {Link} from "gatsby";
 import "../components/main.css"
 import glassBg from "../images/glassBg.png"
+import "../fonts/typography.css"
 
 const Tile = ({ tilePart,tileContent,tileColor, tileLink }) => (
     <Link className="box" style={{textDecoration: "none"}} to={tileLink}>
@@ -13,10 +14,10 @@ const Tile = ({ tilePart,tileContent,tileColor, tileLink }) => (
         <Card sx={{ minWidth: 275}} style={{backgroundColor: tileColor, height:"100%", }} >
             <CardContent>
 
-                <Typography sx={{ fontSize: 20 }} color="white" gutterBottom>
+                <Typography sx={{ fontSize: 20, fontFamily:"Lato Regular" }} color="white" gutterBottom>
                     {tilePart}
                 </Typography>
-                <Typography variant="body1" color={"white"}>
+                <Typography sx={{fontFamily:"Roboto Light"}} variant="body1" color={"white"}>
                     {tileContent}
                 </Typography>
 
