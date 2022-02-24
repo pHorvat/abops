@@ -47,13 +47,12 @@ footer .menu li{
 
 .social_iconA {
    font-size: 2em;
-    color: white;
     margin: 0 10px;
     display: inline-block;
     transition: 0.5s;
+    color: white;
 
 }
-
 .social_iconA:hover {
     transform: translateY(-10px);
 

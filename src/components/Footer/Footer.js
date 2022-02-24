@@ -34,7 +34,7 @@ const Footer = () => (
             </li>
         </ul>
         <ul className="social_icon">
-            <li><Link className={"menuLink"} to={"/"}>Početna stranica</Link></li>
+            <li><Link className={"menuLink"} to={"/"}>Početna</Link></li>
             <li><Link className={"menuLink"} to={"/oNama"}>O nama</Link></li>
             <li><Link className={"menuLink"} to={"/gallery"}>Galerija</Link></li>
             <li><Link className={"menuLink"} to={"/kontakt"}>Kontakt</Link></li>
