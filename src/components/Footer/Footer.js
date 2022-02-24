@@ -24,7 +24,7 @@ const Footer = () => (
                 <Link className={"social_iconA"} to={"#"}> <FacebookIcon/></Link>
             </li>
             <li>
-                <Link className={"social_iconB"} to={"#"}> <InstagramIcon/></Link>
+                <Link className={"social_iconA"} to={"#"}> <InstagramIcon/></Link>
             </li>
             <li>
                 <Link className={"social_iconA"} to={"#"}> <LinkedInIcon/></Link>
