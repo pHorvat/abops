@@ -7,6 +7,9 @@ import {Link} from "gatsby";
 import "../main.css"
 import "./style.css"
 import FacebookIcon from '@mui/icons-material/Facebook';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import YouTubeIcon from '@mui/icons-material/YouTube';
 
 const Footer = () => (
     <footer >
@@ -21,20 +24,20 @@ const Footer = () => (
                 <Link className={"social_iconA"} to={"#"}> <FacebookIcon/></Link>
             </li>
             <li>
-                <Link className={"social_iconA"} to={"#"}> <FacebookIcon/></Link>
+                <Link className={"social_iconB"} to={"#"}> <InstagramIcon/></Link>
             </li>
             <li>
-                <Link className={"social_iconA"} to={"#"}> <FacebookIcon/></Link>
+                <Link className={"social_iconA"} to={"#"}> <LinkedInIcon/></Link>
             </li>
             <li>
-                <Link className={"social_iconA"} to={"#"}> <FacebookIcon/></Link>
+                <Link className={"social_iconA"} to={"#"}> <YouTubeIcon/></Link>
             </li>
         </ul>
         <ul className="social_icon">
-            <li><Link className={"menuLink"} to={"#"}>Home</Link></li>
-            <li><Link className={"menuLink"} to={"#"}>About</Link></li>
-            <li><Link className={"menuLink"} to={"#"}>Gallery</Link></li>
-            <li><Link className={"menuLink"} to={"#"}>Contact</Link></li>
+            <li><Link className={"menuLink"} to={"/"}>Početna stranica</Link></li>
+            <li><Link className={"menuLink"} to={"/oNama"}>O nama</Link></li>
+            <li><Link className={"menuLink"} to={"/gallery"}>Galerija</Link></li>
+            <li><Link className={"menuLink"} to={"/kontakt"}>Kontakt</Link></li>
         </ul>
         <p>© {new Date().getFullYear()}, Patrik Horvat & Vedran Orešković
             {` `}</p>
