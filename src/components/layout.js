@@ -34,9 +34,14 @@ const Layout = ({ children }) => {
         style={{
           margin: `0 auto`,
           padding: `0 1.0875rem`,
+            minHeight: "100vh",
+            display: "flex",
+            flexDirection:"column",
+
+
         }}
       >
-        <main>{children}</main>
+        <main style={{marginBottom: "100px"}}>{children}</main>
           <Footer/>
       </div>
     </>

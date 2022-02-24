@@ -11,6 +11,13 @@ import FacebookIcon from "@mui/icons-material/Facebook";
 import Footer from "../components/Footer/Footer";
 import videoPoster from "../images/videoPoster.jpg"
 
+{/*
+position:"absolute", width:"100%", left:"50%",
+        top:"70%", height:"100%", objectFit:"cover",
+        transform:"translate(-50%,-50%)",
+        zIndex:"-10", filter: "blur(2px)",
+*/}
+
 const IndexPage = () => (
   <Layout>
     <video id="video"
@@ -18,10 +25,14 @@ const IndexPage = () => (
     loop
     muted
     poster={videoPoster}
-    style={{position:"absolute", width:"100%", left:"50%",
-        top:"70%", height:"100%", objectFit:"cover",
-        transform:"translate(-50%,-50%)",
-        zIndex:"-10", filter: "blur(2px)",
+    style={{
+
+        position: "fixed",
+        right: "0",
+        bottom: "0",
+        minWidth: "100%",
+        minHeight: "100%",
+        zIndex:"-10"
 
     }}
     >
