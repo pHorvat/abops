@@ -5,9 +5,12 @@ import "../components/stranica_dva/styleContact.scss"
 import Grid from "@mui/material/Grid";
 
 const kontakt = () => (
+    <div style={{backgroundImage:"url(https://images.pexels.com/photos/4214919/pexels-photo-4214919.jpeg?cs=srgb&dl=pexels-marián-šicko-4214919.jpg&fm=jpg)",
+            backgroundPosition:"center"
+            }}>
     <Layout id="prva">
         <Seo title="contacts" />
-            <img src="https://images.pexels.com/photos/4214919/pexels-photo-4214919.jpeg?cs=srgb&dl=pexels-marián-šicko-4214919.jpg&fm=jpg" />
+
         <h1 id="podNaslov">Kontaktirajte nas</h1>
         <p className="subtitle">Lorem ipsum</p>
             <Grid container>
@@ -104,6 +107,7 @@ const kontakt = () => (
         </div>
             </Grid>
     </Layout>
+    </div>
 )
 
 export default kontakt

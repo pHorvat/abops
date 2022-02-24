@@ -25,7 +25,7 @@ const gallery = () => (
             <ResponsiveMasonry
                 columnsCountBreakPoints={{1: 1, 400: 2, 800: 3, 1000: 4, 1050: 5}}
             >
-                <Masonry columnsCount={5} gutter={5}>
+                <Masonry columnsCount={5} gutter={7}>
                     {itemData.map((item) => (
                         <div key={item.img}>
                             <img
