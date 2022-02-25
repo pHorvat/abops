@@ -11,6 +11,7 @@
     "@material-ui/icons": "^4.11.2",
     "@mui/icons-material": "^5.4.2",
     "@mui/material": "^5.4.3",
+    "@react-google-maps/api": "^2.7.0",
     "babel-plugin-styled-components": "^2.0.2",
     "gatsby": "^4.4.0",
     "gatsby-plugin-anchor-links": "^1.2.1",
