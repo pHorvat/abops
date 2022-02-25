@@ -16,7 +16,6 @@ import ImageListItem from '@mui/material/ImageListItem';
 import Masonry, {ResponsiveMasonry} from "react-responsive-masonry"
 
 
-
 const gallery = () => (
     <Layout>
         <Seo title="Galerija" />
