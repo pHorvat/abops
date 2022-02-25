@@ -48,7 +48,7 @@ export class MapContainer extends Component {
         return (
             <Layout className="oNama">
                 <Grid id="mapCont" container>
-            <Map id="map"
+            <Map className="fullWidth" id="map"
                 google={this.props.google}
                 zoom={12}
                 style={mapStyles}
