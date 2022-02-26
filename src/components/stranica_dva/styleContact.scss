@@ -10,8 +10,6 @@ Layout.prva{
 }
 
 
-
-
 #podNaslov {
     color: white;
     text-align: center;
@@ -106,6 +104,7 @@ p.subtitle {
             flex: 0 0 100%;
         }
         .form-group{
+            color: white;
             display: flex;
             justify-content: flex-start;
             flex-direction: column;

@@ -55,6 +55,30 @@ const IndexPage = () => (
           <Grid item xs={12} md={6} lg={4}>
               <Tile tilePart={"Deo 4"} tileContent={"Bolesti Konjunktive, nazolakrimalnog sistema i trećeg očnog kapka"} tileColor={"#a577a6"} tileLink={"#"}/>
           </Grid>
+          <Grid item xs={12} md={6} lg={4}>
+              <Tile tilePart={"Deo 5"} tileContent={"Kornealne bolesti i bolesti sklere"} tileColor={"#c5c22d"} tileLink={"#"}/>
+          </Grid>
+          <Grid item xs={12} md={6} lg={4}>
+              <Tile tilePart={"Deo 6"} tileContent={"Glaukom"} tileColor={"#64b60e"} tileLink={"#"}/>
+          </Grid>
+          <Grid item xs={12} md={6} lg={4}>
+              <Tile tilePart={"Deo 7"} tileContent={"Uvealne bolesti"} tileColor={"#d2436e"} tileLink={"#"}/>
+          </Grid>
+          <Grid item xs={12} md={6} lg={4}>
+              <Tile tilePart={"Deo 8"} tileContent={"Bolesti sočiva"} tileColor={"#6e4afd"} tileLink={"#"}/>
+          </Grid>
+          <Grid item xs={12} md={6} lg={4}>
+              <Tile tilePart={"Deo 9"} tileContent={"Bolesti vitreusa"} tileColor={"#00be9b"} tileLink={"#"}/>
+          </Grid>
+          <Grid item xs={12} md={6} lg={4}>
+              <Tile tilePart={"Deo 10"} tileContent={"Bolesti retine"} tileColor={"#b6841c"} tileLink={"#"}/>
+          </Grid>
+          <Grid item xs={12} md={6} lg={4}>
+              <Tile tilePart={"Deo 11"} tileContent={"Bolesti očnog nerva"} tileColor={"#dc2435"} tileLink={"#"}/>
+          </Grid>
+          <Grid item xs={12} md={6} lg={4}>
+              <Tile tilePart={"Deo 12"} tileContent={"Neurooftalmološke bolesti "} tileColor={"#a980f5"} tileLink={"#"}/>
+          </Grid>
       </Grid>
       <script> </script>
   </Layout>

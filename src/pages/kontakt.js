@@ -12,7 +12,7 @@ const kontakt = () => (
         <Seo title="contacts" />
 
         <h1 id="podNaslov">Kontaktirajte nas</h1>
-        <p className="subtitle">Lorem ipsum</p>
+        <p className="subtitle">Pošaljite nam poruku!</p>
             <Grid container>
         <div id="contact-container">
                 <Grid className="povrat" item xs sm container>
