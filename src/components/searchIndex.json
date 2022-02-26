@@ -1,0 +1,32 @@
+{
+  "odeljci": [
+    {
+      "deo": "1",
+      "brojOdeljka": "1",
+      "nazivOdeljka": "Anatomija oka pasa i mačaka"
+    },
+    {
+      "deo": "1",
+      "brojOdeljka": "2",
+      "nazivOdeljka": "Klinički pregled oka"
+    },
+
+    {
+      "deo": "2",
+      "brojOdeljka": "3",
+      "nazivOdeljka": "Ageneza očnih kapaka"
+    },
+
+    {
+      "deo": "2",
+      "brojOdeljka": "4",
+      "nazivOdeljka": "Povrede očnih kapaka"
+    },
+
+    {
+      "deo": "2",
+      "brojOdeljka": "5",
+      "nazivOdeljka": "Distihijaza"
+    }
+  ]
+}

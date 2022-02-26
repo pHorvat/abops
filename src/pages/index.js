@@ -43,7 +43,9 @@ const IndexPage = () => (
     </video>
     <Seo title="Home" />
     <h1 className="h1Sadrzaj">Sadržaj</h1>
-
+      <AnchorLink  className="anchorLink" to="/prviDeo#Klinickipregledoka" title="Klinički pregled oka">
+          <Typography variant="body1">Klinički pregled oka</Typography>
+      </AnchorLink>
       <Grid container spacing={2} direction={"row"}>
           <Grid  item xs={12} md={6} lg={4} >
               <Tile tilePart={"Deo 1"} tileContent={"Anatomija oka i dijagnostičke procedure"} tileColor={"#40c4cc"} tileLink={"prviDeo"}/>
@@ -55,7 +57,7 @@ const IndexPage = () => (
               <Tile tilePart={"Deo 3"} tileContent={"Bolesti očne jabučice"} tileColor={"#2a599a"} tileLink={"treciDeo"}/>
           </Grid>
           <Grid item xs={12} md={6} lg={4}>
-              <Tile tilePart={"Deo 4"} tileContent={"Bolesti Konjunktive, nazolakrimalnog sistema i trećeg očnog kapka"} tileColor={"#a577a6"} tileLink={"#"}/>
+              <Tile tilePart={"Deo 4"} tileContent={"Bolesti konjunktive"} tileColor={"#a577a6"} tileLink={"#"}/>
           </Grid>
           <Grid item xs={12} md={6} lg={4}>
               <Tile tilePart={"Deo 5"} tileContent={"Kornealne bolesti i bolesti sklere"} tileColor={"#c5c22d"} tileLink={"#"}/>
