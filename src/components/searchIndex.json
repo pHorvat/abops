@@ -3,30 +3,70 @@
     {
       "deo": "1",
       "brojOdeljka": "1",
-      "nazivOdeljka": "Anatomija oka pasa i mačaka"
+      "nazivOdeljka": "Anatomija oka pasa i mačaka",
+      "anchorUrl": "/prviDeo#Anatomijaokapasaimacaka"
     },
     {
       "deo": "1",
       "brojOdeljka": "2",
-      "nazivOdeljka": "Klinički pregled oka"
+      "nazivOdeljka": "Klinički pregled oka",
+      "anchorUrl": "/prviDeo#Klinickipregledoka"
     },
 
     {
       "deo": "2",
       "brojOdeljka": "3",
-      "nazivOdeljka": "Ageneza očnih kapaka"
+      "nazivOdeljka": "Ageneza očnih kapaka",
+      "anchorUrl": "/drugiDeo#Agenezaocnihkapaka"
     },
 
     {
       "deo": "2",
       "brojOdeljka": "4",
-      "nazivOdeljka": "Povrede očnih kapaka"
+      "nazivOdeljka": "Povrede očnih kapaka",
+      "anchorUrl": "/drugiDeo#Povredeocnihkapaka"
     },
-
     {
       "deo": "2",
       "brojOdeljka": "5",
-      "nazivOdeljka": "Distihijaza"
+      "nazivOdeljka": "Distihijaza",
+      "anchorUrl": "/prviDeo#Anatomijaokapasaimacaka"
+    },
+    {
+      "deo": "2",
+      "brojOdeljka": "6",
+      "nazivOdeljka": "Ektopična cilija (trepavica)",
+      "anchorUrl": "/prviDeo#Anatomijaokapasaimacaka"
+    },
+    {
+      "deo": "2",
+      "brojOdeljka": "7",
+      "nazivOdeljka": "Trihijaza (Trichiasis)",
+      "anchorUrl": "/prviDeo#Anatomijaokapasaimacaka"
+    },
+    {
+      "deo": "2",
+      "brojOdeljka": "8",
+      "nazivOdeljka": "Sindrom prekomernog izlivanja suza iz očnog korita (epifora)",
+      "anchorUrl": "/prviDeo#Anatomijaokapasaimacaka"
+    },
+    {
+      "deo": "2",
+      "brojOdeljka": "9",
+      "nazivOdeljka": "Entropijum",
+      "anchorUrl": "/prviDeo#Anatomijaokapasaimacaka"
+    },
+    {
+      "deo": "2",
+      "brojOdeljka": "10",
+      "nazivOdeljka": "Ektropijum",
+      "anchorUrl": "/prviDeo#Anatomijaokapasaimacaka"
+    },
+    {
+      "deo": "2",
+      "brojOdeljka": "11",
+      "nazivOdeljka": "Kombinovani entropijum i ektropijum",
+      "anchorUrl": "/prviDeo#Anatomijaokapasaimacaka"
     }
   ]
 }

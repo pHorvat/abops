@@ -2,6 +2,7 @@ import React, { Component } from "react"
 import Axios from "axios"
 import * as JsSearch from "js-search"
 import searchIndex from "./searchIndex.json"
+import {Link} from "gatsby";
 
 class Search extends Component {
     state = {
@@ -16,10 +17,10 @@ class Search extends Component {
      * React lifecycle method to fetch the data
      */
     async componentDidMount() {
-        Axios.get({searchIndex})
+        Axios.get("https://phorvat.github.io/MLD/searchIndex.json")
             .then(result => {
                 const odelciData = result.data
-                this.setState({ bookList: odelciData.odelci })
+                this.setState({ odelciList: odelciData.odeljci })
                 this.rebuildIndex()
             })
             .catch(err => {
@@ -51,10 +52,11 @@ class Search extends Component {
          * defines the search index
          * read more in here https://github.com/bvaughn/js-search#configuring-the-search-index
          */
-        dataToSearch.searchIndex = new JsSearch.TfIdfSearchIndex("isbn")
+        dataToSearch.searchIndex = new JsSearch.TfIdfSearchIndex("brojOdeljka")
 
-        dataToSearch.addIndex("deo") // sets the index attribute for the data
+        dataToSearch.addIndex("brojOdeljka") // sets the index attribute for the data
         dataToSearch.addIndex("nazivOdeljka") // sets the index attribute for the data
+
 
         dataToSearch.addDocuments(odelciList) // adds the data to be searched
         this.setState({ search: dataToSearch, isLoading: false })
@@ -116,7 +118,7 @@ class Search extends Component {
                                         cursor: "pointer",
                                     }}
                                 >
-                                    Book ISBN
+                                    Deo
                                 </th>
                                 <th
                                     style={{
@@ -128,7 +130,7 @@ class Search extends Component {
                                         cursor: "pointer",
                                     }}
                                 >
-                                    Book Title
+                                    Broj odeljka
                                 </th>
                                 <th
                                     style={{
@@ -140,14 +142,14 @@ class Search extends Component {
                                         cursor: "pointer",
                                     }}
                                 >
-                                    Book Author
+                                    Naziv odeljka
                                 </th>
                             </tr>
                             </thead>
                             <tbody>
                             {queryResults.map(item => {
                                 return (
-                                    <tr key={`row_${item.isbn}`}>
+                                    <tr key={`row_${item.brojOdeljka}`}>
                                         <td
                                             style={{
                                                 fontSize: "14px",
@@ -170,7 +172,8 @@ class Search extends Component {
                                                 border: "1px solid #d3d3d3",
                                             }}
                                         >
-                                            {item.nazivOdeljka}
+                                            <Link to={item.anchorUrl}>
+                                            {item.nazivOdeljka}</Link>
                                         </td>
                                     </tr>
                                 )
