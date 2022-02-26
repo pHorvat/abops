@@ -43,9 +43,6 @@ const IndexPage = () => (
     </video>
     <Seo title="Home" />
     <h1 className="h1Sadrzaj">Sadržaj</h1>
-      <AnchorLink  className="anchorLink" to="/prviDeo#Klinickipregledoka" title="Klinički pregled oka">
-          <Typography variant="body1">Klinički pregled oka</Typography>
-      </AnchorLink>
       <Grid container spacing={2} direction={"row"}>
           <Grid  item xs={12} md={6} lg={4} >
               <Tile tilePart={"Deo 1"} tileContent={"Anatomija oka i dijagnostičke procedure"} tileColor={"#40c4cc"} tileLink={"prviDeo"}/>
