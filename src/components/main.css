@@ -8,7 +8,7 @@ html{
     background-image: linear-gradient(to right, #3fb72a, #3fb72a 50%, #333333 50%);
     background-size: 200% 100%;
     background-position: -100%;
-    display: inline-block;
+    display: grid;
     margin-top: 5px;
     position: relative;
     -webkit-background-clip: text;
@@ -16,14 +16,17 @@ html{
     transition: all 0.3s ease-in-out;
 }
 .anchorLink:before {
+    /*
     content: '';
-    background: #3fb72a;
+    background: #d30a5d;
     display: block;
     position: absolute;
     bottom: -3px;
     left: 0;
     width: 0;
     height: 3px;
+    */
+
     transition: all 0.3s ease-in-out;
 }
 .anchorLink:hover {

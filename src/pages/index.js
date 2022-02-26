@@ -10,6 +10,8 @@ import {Link} from "gatsby";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import Footer from "../components/Footer/Footer";
 import videoPoster from "../images/videoPoster.jpg"
+import Typography from "@mui/material/Typography";
+import {AnchorLink} from "gatsby-plugin-anchor-links";
 
 {/*
 position:"absolute", width:"100%", left:"50%",
@@ -47,10 +49,10 @@ const IndexPage = () => (
               <Tile tilePart={"Deo 1"} tileContent={"Anatomija oka i dijagnostičke procedure"} tileColor={"#40c4cc"} tileLink={"prviDeo"}/>
           </Grid>
           <Grid item xs={12} md={6} lg={4}>
-              <Tile tilePart={"Deo 2"} tileContent={"Bolesti očnih kapaka"} tileColor={"#f68b6d"} tileLink={"#"}/>
+              <Tile tilePart={"Deo 2"} tileContent={"Bolesti očnih kapaka"} tileColor={"#f68b6d"} tileLink={"drugiDeo"}/>
           </Grid>
           <Grid item xs={12} md={6} lg={4} >
-              <Tile tilePart={"Deo 3"} tileContent={"Bolesti očne jabučice"} tileColor={"#2a599a"} tileLink={"#"}/>
+              <Tile tilePart={"Deo 3"} tileContent={"Bolesti očne jabučice"} tileColor={"#2a599a"} tileLink={"treciDeo"}/>
           </Grid>
           <Grid item xs={12} md={6} lg={4}>
               <Tile tilePart={"Deo 4"} tileContent={"Bolesti Konjunktive, nazolakrimalnog sistema i trećeg očnog kapka"} tileColor={"#a577a6"} tileLink={"#"}/>
