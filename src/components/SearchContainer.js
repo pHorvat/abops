@@ -95,7 +95,7 @@ class Search extends Component {
                                 value={searchQuery}
                                 onChange={this.searchData}
                                 placeholder="Unesite svoju pretragu ovde"
-                                style={{ margin: "0 auto", width: "400px" }}
+                                style={{ margin: "0 auto", maxWidth: "400px", width:"100%" }}
                             />
                         </div>
                     </form>
@@ -191,9 +191,9 @@ class Search extends Component {
                         */}
                         {queryResults.map(item => {
                             return (
-                                <Paper elevation={3}>
+                                <Paper elevation={3} key={`row_${item.brojOdeljka}`}>
                                     <Link style={{textDecoration:"none", color:"#333333"}} to={item.anchorUrl}>
-                                <Card sx={{ minWidth: 275, marginBottom:"2rem" }} key={`row_${item.brojOdeljka}`} variant="outlined">
+                                <Card sx={{  marginBottom:"2rem" }}  variant="outlined">
                                     <CardContent>
                                         <Typography sx={{ fontSize: 14, fontStyle:"italic" }} color="text.secondary" gutterBottom>
                                             Deo {item.deo}
