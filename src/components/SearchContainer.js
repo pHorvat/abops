@@ -3,6 +3,10 @@ import Axios from "axios"
 import * as JsSearch from "js-search"
 import searchIndex from "./searchIndex.json"
 import {Link} from "gatsby";
+import Typography from "@mui/material/Typography";
+import Card from "@mui/material/Card";
+import CardContent from "@mui/material/CardContent";
+import {Paper} from "@mui/material";
 
 class Search extends Component {
     state = {
@@ -84,20 +88,21 @@ class Search extends Component {
                     <form onSubmit={this.handleSubmit}>
                         <div style={{ margin: "0 auto" }}>
                             <label htmlFor="Search" style={{ paddingRight: "10px" }}>
-                                Enter your search here
+                                Pretraga:
                             </label>
                             <input
                                 id="Search"
                                 value={searchQuery}
                                 onChange={this.searchData}
-                                placeholder="Enter your search here"
+                                placeholder="Unesite svoju pretragu ovde"
                                 style={{ margin: "0 auto", width: "400px" }}
                             />
                         </div>
                     </form>
                     <div>
-                        Number of items:
+                        Broj stavki:
                         {queryResults.length}
+                        {/*
                         <table
                             style={{
                                 width: "100%",
@@ -149,6 +154,8 @@ class Search extends Component {
                             <tbody>
                             {queryResults.map(item => {
                                 return (
+
+
                                     <tr key={`row_${item.brojOdeljka}`}>
                                         <td
                                             style={{
@@ -177,9 +184,32 @@ class Search extends Component {
                                         </td>
                                     </tr>
                                 )
+
                             })}
                             </tbody>
                         </table>
+                        */}
+                        {queryResults.map(item => {
+                            return (
+                                <Paper elevation={3}>
+                                    <Link style={{textDecoration:"none", color:"#333333"}} to={item.anchorUrl}>
+                                <Card sx={{ minWidth: 275, marginBottom:"2rem" }} key={`row_${item.brojOdeljka}`} variant="outlined">
+                                    <CardContent>
+                                        <Typography sx={{ fontSize: 14, fontStyle:"italic" }} color="text.secondary" gutterBottom>
+                                            Deo {item.deo}
+                                        </Typography>
+                                        <Typography variant="h5" component="div" >
+                                                {item.nazivOdeljka}
+                                        </Typography>
+                                        <Typography sx={{ mb: 1.5 }} color="text.secondary">
+                                            Odjeljak {item.brojOdeljka}
+                                        </Typography>
+                                    </CardContent>
+                                </Card>
+                                    </Link>
+                                </Paper>
+                                )})}
+
                     </div>
                 </div>
             </div>

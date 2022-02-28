@@ -5,8 +5,8 @@ import Seo from "../components/seo"
 
 const search = () => (
     <Layout>
-        <Seo title="Search" />
-        <h1>Search</h1>
+        <Seo title="Pretraživač" />
+        <h1>Pretraživač</h1>
         <Search/>
 
     </Layout>
