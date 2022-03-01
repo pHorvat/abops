@@ -3,9 +3,10 @@ import Layout from "../components/layout"
 import Seo from "../components/seo"
 import "../components/stranica_dva/styleContact.scss"
 import Grid from "@mui/material/Grid";
+import contactBg from "../images/contactBg.jpg"
 
 const kontakt = () => (
-    <div style={{backgroundImage:"url(https://images.pexels.com/photos/4214919/pexels-photo-4214919.jpeg?cs=srgb&dl=pexels-marián-šicko-4214919.jpg&fm=jpg)",
+    <div style={{backgroundImage: `url(${contactBg})`,
             backgroundPosition:"center"
             }}>
     <Layout id="prva">
