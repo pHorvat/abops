@@ -6,6 +6,7 @@ module.exports = {
     siteUrl: `https://abops.gatsbyjs.io/`,
   },
   plugins: [
+    `gatsby-plugin-minify`,
     `gatsby-plugin-material-ui`,
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,

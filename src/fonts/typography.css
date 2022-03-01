@@ -1,28 +1,34 @@
 @font-face {
     font-family: "Roboto Regular";
     src: url("./Roboto-Regular.ttf");
+    font-display: auto;
 }
 
 @font-face {
     font-family: "Playfair Display";
     src: url("./PlayfairDisplay-VariableFont_wght.ttf");
+    font-display: auto;
 }
 
 @font-face {
     font-family: "Playfair Display Italic";
     src: url("./PlayfairDisplay-Italic-VariableFont_wght.ttf");
+    font-display: auto;
 }
 
 @font-face {
     font-family: "Roboto Light";
     src: url("./Roboto-Light.ttf");
+    font-display: auto;
 }
 
 @font-face {
     font-family: "Lato Light";
     src: url("./Lato-Light.ttf");
+    font-display: auto;
 }
 @font-face {
     font-family: "Lato Regular";
     src: url("./Lato-Regular.ttf");
+    font-display: auto;
 }
